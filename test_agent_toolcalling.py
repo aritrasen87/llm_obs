@@ -46,7 +46,7 @@ from langsmith import testing as t
 @pytest.mark.langsmith
 @pytest.mark.parametrize(
     "prompts, expected_tool_calls",
-    [   # Pick some examples with e-mail reply expected
+    [   # Pick some examples with prompts and expected tool call names
         (prompts[0],expected_tool_calls[0]),
         (prompts[1],expected_tool_calls[1]),
     ],
